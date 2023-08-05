@@ -28,21 +28,14 @@ iframe { margin-left:270px; margin-top:20px;}
 
 body { background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjIyLXJlbWl4LTAwNWEtMTFrLmpwZw.jpg"); background-repeat: no-repeat; background-size:cover; }
 @media (min-width: 600px) {
- nav li { display: inline-block;
-           width: 7em;
-           padding: 0.5em;
-           border: none; }
- nav ul   { text-align: center; }
- main     { float: left;
-            width: 55%; }
- aside    { margin-left: 55%; }
- footer   { clear: both; }
+ body {display:flex; flex-direction:column;}
  }
 
 table {
   border-collapse:collapse;
   width:60px;
   margin-left:50px;
+  background-color:#FFFFFF;
 }
 th,td{border:3px inset #000000;
   padding:8px;
