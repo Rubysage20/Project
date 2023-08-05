@@ -31,18 +31,18 @@ body { background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9s
 
 table {
   border-collapse:collapse;
-  width:60%;
+  width:40%;
   margin-left:450px;
 }
 th,td{border:3px inset #000000;
   padding:8px;
   text-align:left;
-      background-color:white,
+      background-color:#FFFFFF,
 }
-th{background-color:white;
+th{background-color:#FFFFFF;
 }
 tr:nth-child(even){
-  background-color:white;
+  background-color:#FFFFFF;
 }
 
 form { font-family: Georgia;
