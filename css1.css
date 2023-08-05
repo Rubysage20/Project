@@ -30,13 +30,11 @@ body { background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9s
 @media (min-width: 600px) {
  body {display:flex; flex-direction:column;}
  }
-td[colspan = "3"] {
 
 table {
   border-collapse:collapse;
   width:60px;
   margin-left:50px;
-  background-color:white;
 }
 th,td{border:3px inset #000000;
   padding:8px;
@@ -48,8 +46,6 @@ th{background-color:white;
 tr:nth-child(even){
   background-color:white;
 }
-  }
-
 
 form { font-family: Georgia;
          width: 850px; padding: 10px; border: 3px inset #000000; justify-content:center; margin-left:20%;text-align:center;
