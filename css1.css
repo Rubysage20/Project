@@ -26,6 +26,11 @@ main{text-align:center; }
 iframe { margin-left:270px; margin-top:20px;}
 
 body { background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3JtNjIyLXJlbWl4LTAwNWEtMTFrLmpwZw.jpg"); background-repeat: no-repeat; background-size:cover; }
+@media (max-width: 768px)
+body {display:flex; }
+         footer{ text-color: #FFFFFF; }
+         main {border-color: black;}
+         }
 
 table {
   border-collapse:collapse;
@@ -51,9 +56,4 @@ form { font-family: Georgia;
 hr{border-bottom: 2px dashed #237B7B;
 }
 
-@media (max-width: 768px)
-body {display:flex; flex-direction:column;}
-         footer{ text-color: #FFFFFF; }
-         main {border-color: black;}
-         }
 
